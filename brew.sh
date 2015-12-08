@@ -64,6 +64,8 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
+# Golang
+brew install golang
 
 
 # Install other useful binaries.

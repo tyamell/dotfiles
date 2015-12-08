@@ -9,6 +9,13 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+if [ ! -d "~/Code" ]; then
+	mkdir ~/Code
+fi
+if [ ! -d "~/Code/go" ]; then
+	mkdir ~/Code/go
+fi
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 
