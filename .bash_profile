@@ -9,12 +9,18 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-if [ ! -d "~/Code" ]; then
-	mkdir ~/Code
+if [ ! -d "$HOME/Code" ]; then
+	mkdir $HOME/Code;
 fi
-if [ ! -d "~/Code/go" ]; then
-	mkdir ~/Code/go
+if [ ! -d "$HOME/Code/go" ]; then
+	mkdir $HOME/Code/go
 fi
+
+# sshkeys=(
+# 	~/.ssh/github/id_rsa
+# )
+# ssh-add ${sshkeys[@]} > /dev/null 2>&1;
+# unset sshkeys;
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
