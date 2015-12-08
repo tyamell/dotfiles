@@ -51,7 +51,7 @@ brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng
-# 
+#
 # brew install binutils
 # brew install binwalk
 # brew install cifer
@@ -76,6 +76,7 @@ brew install nmap
 # brew install xz
 
 # Install other useful binaries.
+brew install ngrep
 brew install ack
 brew install bfg
 brew install dark-mode
