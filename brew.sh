@@ -31,6 +31,28 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
+brew install caskroom/cask/brew-cask
+brew tap caskroom/homebrew-versions
+
+# Apps
+apps=(
+  evernote
+  google-chrome
+  java
+  slack
+  firefox
+  spotify
+  vagrant
+  iterm2
+  sublime-text3
+  virtualbox
+  atom
+  flux
+  skype
+)
+echo "installing apps..."
+brew cask install ${apps[@]}
+
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -41,42 +63,14 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-# brew install homebrew/php/php55 --with-gmp
 
-# Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
 
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
-# brew install aircrack-ng
-#
-# brew install binutils
-# brew install binwalk
-# brew install cifer
-# brew install dex2jar
-# brew install dns2tcp
-# brew install fcrackzip
-# brew install foremost
-# brew install hashpump
-# brew install hydra
-# brew install john
-# brew install knock
-brew install netpbm
-brew install nmap
-# brew install pngcheck
-# brew install socat
-# brew install sqlmap
-# brew install tcpflow
-# brew install tcpreplay
-# brew install tcptrace
-# brew install ucspi-tcp # `tcpserver` etc.
-# brew install xpdf
-# brew install xz
 
 # Install other useful binaries.
+brew install netpbm
+brew install nmap
 brew install ngrep
+brew install jenv
 brew install ack
 brew install bfg
 brew install dark-mode
@@ -84,7 +78,6 @@ brew install git
 brew install git-flow
 brew install git-lfs
 brew install lua
-# brew install rename
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install tree
