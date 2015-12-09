@@ -67,6 +67,10 @@ brew install homebrew/dupes/screen
 # Golang
 brew install golang
 
+# docker
+brew install docker-machine
+brew install docker
+
 
 # Install other useful binaries.
 brew install netpbm
