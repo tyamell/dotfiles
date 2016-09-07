@@ -44,11 +44,9 @@ apps=(
   spotify
   vagrant
   iterm2
-  sublime-text3
   virtualbox
   atom
   flux
-  skype
 )
 echo "installing apps..."
 brew cask install ${apps[@]}
@@ -78,7 +76,6 @@ brew install git
 brew install git-flow
 brew install git-lfs
 brew install lua
-brew install speedtest_cli
 brew install ssh-copy-id
 brew install tree
 
