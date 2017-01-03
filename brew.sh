@@ -46,6 +46,7 @@ apps=(
   iterm2
   virtualbox
   atom
+	sublime-text
   flux
 )
 echo "installing apps..."
