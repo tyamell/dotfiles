@@ -35,10 +35,10 @@ brew install wget --with-iri
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
+brew install vim --with-override-system-vi
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -56,24 +56,29 @@ brew install tcptrace
 brew install ack
 brew install docker
 brew install git
-brew install git-lfs
 brew install git-flow
-brew install lua
+brew install git-lfs
 brew install golang
-brew install ssh-copy-id
 brew install jenv
+brew install lua
+brew install node
+brew install ssh-copy-id
+
+# Install cask versions
+brew tap caskroom/versions
 
 # Install casks
-brew tap caskroom/versions
-brew cask install iterm2
 brew cask install docker
-brew cask install visual-studio-code
-brew cask install little-snitch
-brew cask install micro-snitch
+brew cask install evernote
 brew cask install google-chrome
 brew cask install gpg-suite
-brew cask install java8
+brew cask install iterm2
 brew cask install java
+brew cask install java8
+brew cask install little-snitch
+brew cask install micro-snitch
+brew cask install spotify
+brew cask install visual-studio-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
