@@ -77,8 +77,10 @@ brew cask install java
 brew cask install java8
 brew cask install little-snitch
 brew cask install micro-snitch
+brew cask install slack
 brew cask install spotify
 brew cask install visual-studio-code
+brew cask install whatsapp
 
 # Remove outdated versions from the cellar.
 brew cleanup
