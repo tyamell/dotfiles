@@ -33,3 +33,7 @@ export LESS_TERMCAP_md="${yellow}";
 export MANPAGER='less -X';
 
 export GOPATH="$HOME/code/go"
+
+
+#  export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/lib # For both Linux and macOS X
+#  export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/usr/local/lib # For macOS X only

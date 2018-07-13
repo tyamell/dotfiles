@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+alias syncmovies="rsync -tvrh --progress ./ /Volumes/Media/Movies/"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."

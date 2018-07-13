@@ -1,2 +1,4 @@
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 export PATH=$PATH:$(brew --prefix coreutils)/libexec/gnubin
+export PATH=$PATH:/Users/ty/bin/sonar-scanner-3.2.0.1227-macosx/bin/
+export PATH=$PATH:/Users/ty/Library/Python/3.6/bin

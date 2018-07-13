@@ -176,3 +176,6 @@
 	insteadOf = "gist:"
 [gpg]
 	program = gpg2
+[user]
+	name = Ty Amell
+	email = tyamell@gmail.com
